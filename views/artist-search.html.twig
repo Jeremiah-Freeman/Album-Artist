@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Your CD's are:</title>
+  </head>
+  <body>
+    {% for display_new_CD in artist %}
+      <p>
+        CD Title: {{display_new_CD.getTitle}} <br>
+        CD Artist: {{display_new_CD.getArtist}}
+      </p>
+      {%endfor%}
+  </body>
+</html>

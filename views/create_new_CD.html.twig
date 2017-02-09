@@ -11,7 +11,16 @@
         <div class="form-group">
             <label for="title">What's the name of your CD?</label>
             <input id="title "type="text" name="title" class="form-control">
+            <label for="artist">Artist of CD?</label>
+            <input id="artist "type="text" name="artist" class="form-control">
             <button type="submit" name="btn-success">Create CD</button>
+        </div>
+    </form>
+    <form action="/artist_search" method="post">
+        <div class="form-group">
+            <label for="artist-search">What's the name of the artist?</label>
+            <input id="artist-search "type="text" name="artist-search" class="form-control">
+            <button type="submit" name="btn-success">Find Artist</button>
         </div>
     </form>
   </div>
